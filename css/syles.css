@@ -32,6 +32,9 @@
     height: 50vh;
     font-family: 'Alata', sans-serif;
 }
+h3 {
+    text-align: center;
+}
 .sectionfive {
     height: 50vh;
     font-family: 'Alata', sans-serif;
@@ -49,6 +52,14 @@
     font-family: 'Alata', sans-serif;
     text-align: center;
 
+}
+.form-cont {
+    text-align: center;
+    position: relative;
+    width: 700px;
+    max-width: 100%;
+    left: 50%;
+    transform: translate(-50%);
 }
 footer {
     text-align: center;
