@@ -1,6 +1,6 @@
 # Prince Mumo.
 ## Description:
-This is a webpage about DElani Studios. It contains their details, porfoliio of some of the projects and their contact form.
+This is a webpage about Delani Studios. It contains their details, porfoliio of some of the projects and their contact form.
 ## Known Bugs
 There are no known bugs.
 ## Technologies Used
