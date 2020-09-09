@@ -36,13 +36,21 @@ h3 {
     text-align: center;
 }
 .sectionfive {
-    height: 50vh;
+    height: 70vh;
     font-family: 'Alata', sans-serif;
     text-align: center;
 }
-.portfolio img{
-    width: 50%;
-}
+#portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left:18%;
+    margin-right: 16%; 
+  }
+.col-md-3 img{
+    max-width: 100%;
+    max-height: 100%;
+  }
 .sectionsix {
     background-image: url('../assets/backgrounds/c_image.jpg');
     background-repeat: no-repeat;
@@ -53,7 +61,13 @@ h3 {
     text-align: center;
 
 }
-.form-cont {
+input[type=text],input[type=email],textarea [type=comment]{
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    font-family: 'Copse', serif;
+  }
+  .form-cont {
     text-align: center;
     position: relative;
     width: 700px;
